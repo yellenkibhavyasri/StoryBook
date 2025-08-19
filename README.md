@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+Uzence UI Components
+ React Component Development Assignment
+Focus: UI Components (InputField & DataTable)
+Tech Stack: React · TypeScript · TailwindCSS · Storybook
+Here's an improved version of the project overview and getting started sections, specifically tailored for a GitHub README file. It's concise, scannable, and uses clear formatting.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Project Overview
+This repository contains a collection of reusable React components designed for building modern user interfaces. The core components include a flexible InputField and a powerful DataTable, both built with a focus on reusability, accessibility, and theming.
 
-## Available Scripts
+Components:
 
-In the project directory, you can run:
+InputField: A versatile input component that supports various states (disabled, invalid, loading), variants (filled, outlined, ghost), and sizes (small, medium, large). It also includes optional features like a password toggle and a clear button, with full support for light and dark themes.
 
-### `npm start`
+DataTable: A robust component for displaying tabular data. Features include column sorting, single/multiple row selection, and custom render functions. It also handles loading and empty states gracefully, with built-in theming and accessibility support.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+All components are fully documented in Storybook, providing live examples, prop tables, and usage guidelines.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📦 Getting Started
+Follow these steps to set up the project locally and run the Storybook documentation.
 
-### `npm test`
+Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bash
 
-### `npm run build`
+git clone https://github.com/yellenkibhavyasri/StoryBook.git
+cd uzence-ui
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Bash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
+Run Storybook locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bash
 
-### `npm run eject`
+npm run storybook
+This command will open Storybook in your browser at http://localhost:6006/?path=/docs/configure-your-project--docs
+Here, you can explore all the component stories, including different states, themes, and use cases.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Build StoryBook:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm run build-storybook
+This command generates a static, production-ready build of the Storybook documentation in the storybook-static folder.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+📖 Storybook Documentation
+Dive into the detailed documentation for each component directly in Storybook:
 
-## Learn More
+DataTable: View stories for default and dark modes, custom rendering, loading/empty states, and best practices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+InputField: Explore examples for different states (error, disabled), password fields, dark mode, and detailed accessibility notes (ARIA roles, color contrast).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🖼 Chromatic Preview
+You can view the deployed Storybook documentation here: https://www.chromatic.com/build?appId=68a494b5402505ee21d746aa&number=2
